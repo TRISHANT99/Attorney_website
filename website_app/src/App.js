@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="home">
+      {/* <div className="home">
         <HomeLeft />
         <HomeRight />
-      </div>
+      </div> */}
     </>
   );
 }
