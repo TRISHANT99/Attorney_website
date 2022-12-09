@@ -1,5 +1,12 @@
 .right {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 100%;
   width: 100%;
+}
+.rightImg > img {
+  margin-left: 20%;
+  height: 550px;
+  width: 280px;
+}
+.rightImg {
 }

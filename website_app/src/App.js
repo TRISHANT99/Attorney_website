@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import HomeLeft from "./components/HomeLeft";
 import HomeRight from "./components/HomeRight";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,9 @@ function App() {
       <div className="home">
         <HomeLeft />
         <HomeRight />
+      </div>
+      <div className="bottom">
+        <Footer />
       </div>
     </>
   );

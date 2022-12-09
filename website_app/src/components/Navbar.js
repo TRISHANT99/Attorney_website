@@ -1,16 +1,17 @@
 import React from "react";
 import "../css/Navbar.css";
+import logo from "../essential/logo.jpg";
 
 export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid">
+        <div className="container-fluid mx-3">
           <a className="navbar-brand" href="/">
             <img
-              style={{ height: "35px", width: "35px", borderRadius: "50px" }}
-              src="https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2147483647&v=beta&t=J3kUMZwIphc90TFKH5oOO9Sa9K59fimgJf-s_okU3zs"
-              alt="pic"
+              style={{ height: "50px", width: "50px", borderRadius: "50px" }}
+              src={logo}
+              alt="logo"
             />{" "}
             Person_Name
           </a>

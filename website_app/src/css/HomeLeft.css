@@ -1,5 +1,16 @@
 .left {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 100%;
+  width: 100%;
+  padding: 20px 30px;
+}
+.leftPara {
+  margin-top: 40px;
+}
+.btnContact {
+  width: 100%;
+  margin: auto;
+}
+.btn {
   width: 100%;
 }
