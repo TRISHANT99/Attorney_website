@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HomeLeft from "./components/HomeLeft";
+import HomeRight from "./components/HomeRight";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-  <>
-    <h1>
-      Hello world
-    </h1>
-  </>
+    <>
+      <Navbar />
+      <div className="home">
+        <HomeLeft />
+        <HomeRight />
+      </div>
+    </>
   );
 }
 
