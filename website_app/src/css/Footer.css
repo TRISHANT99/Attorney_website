@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
 .footer {
+  font-family: "Raleway", sans-serif;
   background-color: black;
   color: white;
   display: flex;
@@ -8,30 +11,33 @@
 }
 
 .btnBox {
-  margin-top: 17px;
+  margin-top: 5px;
   font-weight: bold;
+  font-size: 12px;
   color: white;
-  padding: 15px 25px;
+  padding: 7px 12px;
   background-color: rgb(250, 175, 90);
 }
 .heading > h2 {
-  padding-top: 30px;
+  padding-top: 20px;
+  font-weight: bold;
 }
 .flex1 {
   display: flex;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 25px;
   flex-direction: row;
   justify-content: space-evenly;
+  font-size: 10px;
 }
 .footerBottom {
-  margin-top: 50px;
+  margin-top: 30px;
+  font-size: 10px;
   display: flex;
   width: 100%;
   justify-content: space-evenly;
 }
 .navbar-nav {
   display: flex;
-
   flex-direction: row;
 }
